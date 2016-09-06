@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="IraishoRegressionTestSuite" >
+	<test name="KaihatsuhyokaRegressionTest">
+		<classes>
+			<class name ="iraisho.kaihatsuhyoka.GenericFlowTest1_2005_2001_1043"/>
+			<!--  -->
+			<class name ="iraisho.kaihatsuhyoka.SpecialRejectionFlow"/>
+
+		</classes>
+	</test>
+</suite>
